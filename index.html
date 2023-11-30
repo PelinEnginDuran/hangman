@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>ADAM ASMACA</title>
+</head>
+<body>
+    <div class="container-title">
+    <h1 class="title">ADAM ASMACA</h1>
+    <p class="titleP">gizli kelimeyi bulmak için bir harf giriniz;</p>
+    
+    
+    <span class="emojiApplause" style='font-size:100px;'>&#128079;</span>
+
+    </div>
+    <div class="container">
+        <div id="wrong-letter">
+            
+            
+        </div>
+        <div id="word">
+          
+        </div>
+    <div id="pop-up-container">
+        <div class="popup">
+            <h2 id="success-message">Kazandınız</h2>
+            <span id="emojiSmile" style="font-size:100px">&#128540;</span>
+            <button id="play-again">Tekrar Oyna</button>
+        </div>
+    </div>
+    <div id="popup-container">
+        <div class="pop-up">
+            <h2 id="unsuccess-message">Kaybettiniz</h2>
+            <span id="emojiSad" style='font-size:100px;'>&#128533;</span>
+            <button id="playAgain">Tekrar Oyna</button>
+        </div>
+    </div>
+    <div id="wrongMessage" class="">
+       <p>Bu Harfi Zaten Girdiniz</p>
+    </div>
+
+
+        <svg height="320" width="250" class="grafik">
+
+            <!--sehpa-->
+
+            <line x1="50" y1="20" x2="160" y2="20" style="stroke:rgb(0,0,0);stroke-width:7" />
+            <line x1="160" y1="20" x2="160" y2="60" style="stroke:rgb(0,0,0);stroke-width:7" />
+            <line x1="50" y1="20" x2="50" y2="250" style="stroke:rgb(0,0,0);stroke-width:7" />
+            <line x1="10" y1="250" x2="90" y2="250" style="stroke:rgb(0,0,0);stroke-width:7" />
+
+            <!--kafa-->
+            <circle cx="160" cy="82" r="20" stroke="black" stroke-width="3" fill="red" class="item" />
+
+            <!--gövde-->
+            <line x1="160" y1="99" x2="160" y2="170" style="stroke:rgb(0,0,0);stroke-width:7" class="item"/>
+
+            <!--kollar-->
+            <line x1="130" y1="120" x2="160" y2="100" style="stroke:rgb(0,0,0);stroke-width:7"class="item" />
+            <line x1="190" y1="120" x2="160" y2="100" style="stroke:rgb(0,0,0);stroke-width:7"class="item" />
+
+            <!--ayaklar-->
+            <line x1="190" y1="180" x2="160" y2="165" style="stroke:rgb(0,0,0);stroke-width:7"class="item" />
+            <line x1="130" y1="180" x2="160" y2="165" style="stroke:rgb(0,0,0);stroke-width:7"class="item" />
+
+
+
+
+        </svg>
+     
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

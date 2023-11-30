@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(./others/notebook.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    overflow: hidden;
+}
+h1{
+    font-size: 50px;
+    
+}
+p{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: inline;
+}
+
+
+.emojiApplause{
+    display: none;
+}
+
+.grafik{
+    fill: transparent;
+    margin-top: 50px;
+    
+    
+}
+
+.item{
+    display: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    
+}
+#wrong-letter{
+    position: absolute;
+    top: 40px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+  
+  
+}
+#word{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    display: flex;
+    transform: translateX(-20%);
+ 
+
+    
+}
+.letter{
+    border-bottom: 3px solid black;
+    font-size: 30px;
+    margin: 0 3px;
+    width: 25px;
+    
+}
+#pop-up-container{
+    background-color: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.popup{
+    background-color: rgb(0, 255, 85);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, .7);
+
+}
+#emojiSmile{
+   display: none;
+   align-items: center;
+   justify-content: center;
+}
+
+#popup-container{
+    background-color: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.pop-up{
+    background-color: rgb(255, 0, 43);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, .7);
+
+}
+#emojiSad{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#play-again{
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#play-again:hover{
+    background-color: #FFC83D;
+    transform: scale(1.2);
+    font-weight: 600;
+}
+#playAgain{
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#playAgain:hover{
+    background-color: #FFC83D;
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+#wrongMessage{
+ background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+ position: absolute;
+  padding: 5px 5px;
+  bottom: -120px;
+  transition: transform 0.4s ease-in-out;
+  
+  
+} 
+
+#wrongMessage.show{
+    transform: translateY(-120px);
+}
+
